@@ -1,0 +1,11 @@
+services:
+  my-web:
+    image: oktet443/simple-apps
+    build: ./app
+    ports:
+      - 3000:3000
+    volumes:
+      - vol-simple-apps:/app
+
+volumes:
+  vol-simple-apps: {}
