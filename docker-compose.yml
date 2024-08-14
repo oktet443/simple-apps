@@ -1,6 +1,6 @@
 services:
   my-web:
-    image: oktet443/simple-apps
+    image: oktet69/simple-apps
     build: ./app
     restart: always
     ports:
